@@ -1,0 +1,30 @@
+
+$ mpr a0 mount .
+Local directory . is mounted at /remote
+Connected to MicroPython at /dev/ttyACM0
+Use Ctrl-] or Ctrl-x to exit this shell
+>
+MicroPython v1.27.0-kaki5 on 2026-01-07; ESP32H2 Mini-1 STD with ESP32H2
+>>> import sysinfo
+>>> sysinfo.show()
+ID ............: 4831b7fffec0
+MCU ...........: ESP32H2
+Memory
+   total ......: 176.5 KB
+   usage ......: 17.2656252 KB (9.348442%)
+   free .......: 159.21875 KB (90.72238%)
+Filesystem
+   total ......: 2048.0 KB
+   usage ......: 12.0 KB (0.5859375%)
+   free .......: 2036.0 KB (99.41406%)
+SYSTEM
+   platform ...: MicroPython-1.27.0-riscv-IDFv5.5.1-with-newlib4.3.0
+   type .......: ESP32H2
+   node .......: esp32
+   release ....: 1.27.0
+   version ....: v1.27.0-kaki5 on 2026-01-07
+   board ......: ESP32H2 Mini-1 STD with ESP32H2
+   speed ......: 96000000 Hz
+>>> 
+
+

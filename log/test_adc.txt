@@ -1,0 +1,14 @@
+$ mpr a0 mount .
+Local directory . is mounted at /remote
+Connected to MicroPython at /dev/ttyACM0
+Use Ctrl-] or Ctrl-x to exit this shell
+>
+MicroPython v1.27.0-kaki5 on 2026-01-07; ESP32H2 Mini-1 STD with ESP32H2
+>>> import test_adc
+GPIO0: 6929 (352)
+GPIO1: 9218 (481)
+GPIO2: 8962 (465)
+GPIO3: 53533 (3281)
+GPIO4: 38937 (2401)
+>>> 
+
